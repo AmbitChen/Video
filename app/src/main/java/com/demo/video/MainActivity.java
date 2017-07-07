@@ -1,7 +1,5 @@
 package com.demo.video;
 
-import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -10,7 +8,6 @@ import com.demo.LivePlay;
 
 import fm.jiecao.jcvideoplayer_lib.JCUserAction;
 import fm.jiecao.jcvideoplayer_lib.JCUserActionStandard;
-import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
 
 public class MainActivity extends AppCompatActivity {
     private LivePlay video;
