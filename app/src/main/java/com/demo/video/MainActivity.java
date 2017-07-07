@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
+
         LivePlay.releaseAllVideos();
     }
 
@@ -115,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
                     Log.i("USER_EVENT", "ON_CLICK_BLANK" + " title is : " + (objects.length == 0 ? "" : objects[0]) + " url is : " + url + " screen is : " + screen);
                     break;
                 default:
-                    Log.i("USER_EVENT", "unknow");
+                    Log.i("USER_EVENT", "unKnow");
                     break;
             }
         }
