@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         // TODO: 2017/6/28 不强制设置为横屏/竖屏 可使用重力感应 切换
 //        LivePlay.FULLSCREEN_ORIENTATION = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE;
         // TODO: 2017/6/28 播放网络视频
-//        video.setUp("http://2449.vod.myqcloud.com/2449_22ca37a6ea9011e5acaaf51d105342e3.f20.mp4"
-//                , LivePlay.SCREEN_LAYOUT_NORMAL, "嫂子闭眼睛");
+        video.setUp("http://2449.vod.myqcloud.com/2449_22ca37a6ea9011e5acaaf51d105342e3.f20.mp4"
+                , LivePlay.SCREEN_LAYOUT_NORMAL, "嫂子闭眼睛");
         // TODO: 2017/6/28 播放本地视频
 //        video.setUp("/storage/emulated/0/DCIM/Camera/VID_20170620_124619.mp4"
 //                , LivePlay.SCREEN_LAYOUT_NORMAL, "嫂子闭眼睛");
@@ -36,8 +36,9 @@ public class MainActivity extends AppCompatActivity {
         // TODO: 2017/6/28 直接全屏
 //        LivePlay.startFullscreen(this, LivePlay.class, "http://2449.vod.myqcloud.com/2449_22ca37a6ea9011e5acaaf51d105342e3.f20.mp4", "嫂子辛苦了");
 
-        Intent intent = new Intent(this, RecyerActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(this, RecyerActivity.class);
+//        startActivity(intent);
+
 
     }
 
